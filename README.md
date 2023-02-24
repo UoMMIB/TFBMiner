@@ -73,7 +73,7 @@ Use the `-g` flag to indictate the genome data and the `-o` file to indicate the
 > python -m TFBMiner C00259 -g C:\Users\ruth\TFBMiner\genome_files\ -o C:\Users\ruth\TFBMiner\results\
 
 ### Trouble shooting
-* It didn't work - make sure that you are in the correct location within your file system by checking the file path on the left of the Anaconda prompt. The last folder should be TFBMiner.
+* It didn't work - make sure that you are in the correct location within your file system by checking the file path on the left of the Anaconda prompt. The last folder should be TFBMiner. Make sure all the requirements are installed.
 
 * It returned 0 potential biosensors - Either a biosensor does not exist, or it couldn't find the genome_files. Did you put a slash at the end of your file paths? Double check the filepath provided and that you are running the code from the TFBMiner-main folder (see previous help point).
 
