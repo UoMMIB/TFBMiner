@@ -47,6 +47,10 @@ def main():
         sys.exit(f"Error: {genome_files_path} is empty.")
     else:
         genome_files = glob.glob(genome_files_path+"\*")
+        if len(genome_files)==0:
+            genome_files = glob.glob(genome_files_path+"*")
+        if len(genome_files)==0:
+            genome_files = glob.glob(genome_files_path+"/*")
         genome_assemblies_path = get_path("genome_assemblies.csv")
     try:
         genome_assemblies = pd.read_csv(genome_assemblies_path)
