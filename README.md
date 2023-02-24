@@ -51,7 +51,7 @@ conda install numpy=1.21.5
 conda install pandas=1.5.2
 
 ### Download the code/data
-Install the code by going to the github page and clicking Code, Download ZIP. Unzip the zip-file in the directory that you want to work in. 
+Install the code by going to the github page and clicking Code, Download ZIP. Unzip the zip-file in the directory that you want to work in (e.g. `C:\Users\ruth\TFBMiner\`). 
 
 Download the genome files by going to the Dropbox page and clicking download (2GB of space required). Make a folder called genome_files in the directory that you want to work in (e.g. `C:\Users\ruth\TFBMiner\genome_files\`) and extract the data into there.  
 https://www.dropbox.com/sh/ezo6ahj033cev8b/AADm-bC728rD0l9PTgPA9bgpa?dl=0
