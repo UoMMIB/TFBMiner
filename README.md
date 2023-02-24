@@ -41,7 +41,7 @@ Open a terminal
 Create a virtual environment using the following command  (for this part it doesn't matter where you are in your file system). If it asks if you want to proceed press y.
 > conda create --name tfbMiner python=3.10
 
-Activate the environment using the following command. You should see **(base)** on the left of the conda prompt be replaced with **(tfbMiner)**, as shown below. **If this does not happen then software that you install could affect the rest of your computer.**
+Activate the environment using the following command. You should see **(base)** on the left of the conda prompt be replaced with **(tfbMiner)**. **If this does not happen then the software that you install could affect the rest of your computer.**
 > conda activate tfbMiner  
 
 Install the requirements with the following commands 
