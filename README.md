@@ -28,7 +28,7 @@ These are beginner's instructions for using TFBMiner.
 
 ### Dependencies
 * Anaconda or miniconda  
-Download minicoda you do not have either of these installed already
+Download minicoda if you do not have either of these installed already
 https://docs.conda.io/en/latest/miniconda.html
 
 ### Windows
