@@ -44,7 +44,7 @@ Create a virtual environment using the following command  (for this part it does
 Activate the environment using the following command. You should see **(base)** on the left of the conda prompt be replaced with **(tfbMiner)**. **If this does not happen then the software that you install could affect the rest of your computer.**
 > conda activate tfbMiner  
 
-Install the requirements with the following commands 
+Install the requirements with the following commands (ideally one at a time; if it asks if you want to proceed press y). 
 > conda install pip  
 conda install tqdm=4.62.3  
 conda install numpy=1.21.5  
